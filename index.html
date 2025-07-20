@@ -1,151 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Salvação de Jesus Cristo</title>
-    <style>
-        body {
-            background-color: white;
-            color: #333;
-            font-family: Arial, sans-serif;
-        }
-        h1, h2, h3 {
-            color: #bfa133;
-        }
-        .milagre {
-            border: 2px solid #bfa133;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 10px;
-        }
-        .detalhes {
-            display: none;
-            margin-top: 10px;
-            background-color: #fffbea;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .botao {
-            background-color: #bfa133;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .navegacao {
-            display: flex;
-            justify-content: center;
-            margin: 30px 0;
-        }
-        .botao-navegacao {
-            background-color: white;
-            color: #bfa133;
-            border: 2px solid #bfa133;
-            padding: 10px 20px;
-            font-weight: bold;
-            font-size: 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .botao-navegacao:hover {
-            background-color: #bfa133;
-            color: white;
-        }
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #fdf6e3;
-            text-align: center;
-            border-top: 2px solid #bfa133;
-        }
-        .logo {
-            max-width: 200px;
-            margin: 20px auto;
-            display: block;
-        }
-    </style>
-    <script>
-        function toggleDetalhes(id) {
-            const elemento = document.getElementById(id);
-            const botao = document.getElementById('botao-' + id);
-            if (elemento.style.display === "none") {
-                elemento.style.display = "block";
-                botao.innerText = "Esconder detalhes";
-            } else {
-                elemento.style.display = "none";
-                botao.innerText = "Mostrar detalhes";
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estudo com YouTube</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="C:\Users\Gilkiane\Downloads\ChatGPT Image 18 de jul. de 2025, 16_34_52.png" alt="Logo - A Salvação de Jesus" class="logo">
-    <h1>A Salvação de Jesus Cristo</h1>
 
-    <!-- BOTÃO DE NAVEGAÇÃO -->
-    <div class="navegacao">
-        <a href="https://arthureloi.github.io/new-depoiments-page/">
-            <button class="botao-navegacao">Ver Depoimentos e Versículos</button>
-        </a>
-    </div>
+  <div class="logo-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
+         alt="Logo do YouTube" class="youtube-logo">
+  </div>
 
-    <!-- MILAGRES POR PAÍS -->
-    <div class="milagre">
-        <h3>Argentina</h3>
-        <button class="botao" id="botao-argentina" onclick="toggleDetalhes('argentina')">Mostrar detalhes</button>
-        <div class="detalhes" id="argentina">
-            Milagre de Nossa Senhora de Luján (1630): Os bois que puxavam a imagem da Virgem pararam inexplicavelmente, indicando que ela queria permanecer naquele local.
-        </div>
-    </div>
-
-    <div class="milagre">
-        <h3>Brasil</h3>
-        <button class="botao" id="botao-brasil" onclick="toggleDetalhes('brasil')">Mostrar detalhes</button>
-        <div class="detalhes" id="brasil">
-            Milagre de Nossa Senhora Aparecida (1717): Uma imagem foi encontrada por pescadores e causou comoção popular após relatos de milagres.
-        </div>
-    </div>
-
-    <div class="milagre">
-        <h3>México</h3>
-        <button class="botao" id="botao-mexico" onclick="toggleDetalhes('mexico')">Mostrar detalhes</button>
-        <div class="detalhes" id="mexico">
-            Aparição de Nossa Senhora de Guadalupe (1531): Juan Diego viu a Virgem Maria e sua imagem foi impressa milagrosamente em seu manto.
-        </div>
-    </div>
-
-    <div class="milagre">
-        <h3>Filipinas</h3>
-        <button class="botao" id="botao-filipinas" onclick="toggleDetalhes('filipinas')">Mostrar detalhes</button>
-        <div class="detalhes" id="filipinas">
-            Milagre de Lipa (1948): Aparições marianas e chuva de pétalas de rosa ligadas a Irmã Teresita Castillo.
-        </div>
-    </div>
-
-    <div class="milagre">
-        <h3>Portugal</h3>
-        <button class="botao" id="botao-portugal" onclick="toggleDetalhes('portugal')">Mostrar detalhes</button>
-        <div class="detalhes" id="portugal">
-            Milagre de Fátima (1917): Três crianças testemunharam aparições da Virgem Maria, com o Milagre do Sol diante de milhares de pessoas.
-        </div>
-    </div>
-
-    <!-- Adicione aqui mais milagres por país -->
-
-    <footer>
-        <h2>Por que crer em Deus?</h2>
-        <p>“O coração tem razões que a própria razão desconhece.” – Blaise Pascal</p>
-        <p>“A fé é dar o primeiro passo, mesmo quando você não vê toda a escada.” – Martin Luther King Jr.</p>
-        <p>“A ausência de evidência não é evidência de ausência.” – Carl Sagan</p>
-        <p>“Se Deus não existisse, tudo seria permitido.” – Dostoiévski</p>
-        <p>“Deus não nos chama para sermos bem-sucedidos, mas fiéis.” – Madre Teresa</p>
-        <p>“Deus está nos detalhes.” – Ludwig Mies van der Rohe</p>
-        <p>“Mesmo que não O vejamos, Ele caminha ao nosso lado.”</p>
-        <p>“A fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.” – Hebreus 11:1</p>
-    </footer>
 </body>
 </html>
-
